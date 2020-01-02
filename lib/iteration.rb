@@ -8,12 +8,12 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   ow_index = 0
     
-    while row_index < Array.count do
+    while row_index < array.count do
         new_array = []    
         element_index = 0
             
-            while element_index < Array[row_index].count do
-                    puts new_array << "I love #{Array[row_index][element_index]} on my pizaa"
+            while element_index < array[row_index].count do
+                    puts new_array << "I love #{array[row_index][element_index]} on my pizaa"
                     element_index += 1
                     new_array = []
                 end
