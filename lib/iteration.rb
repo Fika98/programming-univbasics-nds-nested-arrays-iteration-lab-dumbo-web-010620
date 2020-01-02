@@ -25,7 +25,7 @@ def join_ingredients(src)
                 row_index += 1
                 
 
-                end #=> nil
+                end
     
 end
 
