@@ -6,6 +6,21 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
+  row_index = 0
+    
+    while row_index < array_1.count do
+        new_array = []    
+        element_index = 0
+            
+            while element_index < array_1[row_index].count do
+                    puts new_array << "I love #{array_1[row_index][element_index]} on my pizaa"
+                    element_index += 1
+                    new_array = []
+                end
+                row_index += 1
+                
+
+                end #=> nil
 end
 
 def find_greater_pair(src)
